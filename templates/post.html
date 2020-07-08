@@ -9,6 +9,8 @@
 
     <form action="/post" method="post">
         {% csrf_token %}
+        <input type="text" name="password" placeholder="Пароль">
+        <br><br>
         <input type="text" name="title" placeholder="Название публикации">
         <br><br>
         <textarea name="text" placeholder="Текст публикации"></textarea>

@@ -3,7 +3,7 @@
 {% block title %}Публикация - {{ title }}{% endblock %}
 
 {% block content %}
-    <h2>{{ title }}</h2></br>
-    <i>{{ date }}</i>
-    <p>{{ text|safe }}</p>
+    <h2>{{ publication.title }}</h2></br>
+    <i>{{ publication.date }}</i>
+    <p>{{ publication.text|safe }}</p>
 {% endblock %}
