@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Публикация - {{ title }}{% endblock %}
+
+{% block content %}
+    <h2>{{ title }}</h2></br>
+    <i>{{ date }}</i>
+    <p>{{ text|safe }}</p>
+{% endblock %}
